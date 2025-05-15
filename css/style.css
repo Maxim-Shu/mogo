@@ -1,0 +1,38 @@
+.servises {
+    margin-top: 68px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.servises-subtitle {
+    font-size: 24px;
+    line-height: 1;
+    color: #333333;
+    padding-bottom: 20px;
+    font-family: "Kaushan Script";
+}
+
+.servises-title {
+    font-size: 30px;
+    color: #333333;
+    line-height: 1;
+    font-family: "Montserrat";
+    font-weight: 700px;
+    padding-bottom: 65px;
+}
+
+.servises-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 35px;
+}
+
+.servises-item {
+    flex-basis: calc((100%-35px*2)/3);
+}
